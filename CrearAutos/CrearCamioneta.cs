@@ -1,12 +1,12 @@
-﻿using practica2_copia2.Modelos;
+using practica2_copia2.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace practica2_copia2.Autos
 {
+
     class CrearCamioneta : Vehiculos
     {
         private static CCamioneta _camioneta = new();
@@ -92,7 +92,5 @@ namespace practica2_copia2.Autos
             Console.WriteLine("\nPresione cualquier tecla para continuar...");
             Console.ReadKey();
         }
-
-
     }
 }

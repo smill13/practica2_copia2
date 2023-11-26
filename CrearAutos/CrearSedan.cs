@@ -1,4 +1,4 @@
-﻿using practica2_copia2.Modelos;
+using practica2_copia2.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
