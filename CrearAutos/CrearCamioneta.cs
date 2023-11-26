@@ -1,12 +1,12 @@
-using practica2_copia2.Modelos;
+﻿using practica2_copia2.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace practica2_copia2.Autos
 {
-
     class CrearCamioneta : Vehiculos
     {
         private static CCamioneta _camioneta = new();
@@ -81,8 +81,8 @@ namespace practica2_copia2.Autos
 
                 CFactura.Precio = camionetaSeleccionada.Precio;
 
-                CCrearFactura Factura = new CCrearFactura();
-                Factura.CCrearFactura1(opcion, camionetaSeleccionada.ToString());
+                CrearFactura Factura = new CrearFactura();
+                Factura.CrearFactura1(opcion, camionetaSeleccionada.ToString());
             }
             else
             {
@@ -92,5 +92,7 @@ namespace practica2_copia2.Autos
             Console.WriteLine("\nPresione cualquier tecla para continuar...");
             Console.ReadKey();
         }
+
+
     }
 }

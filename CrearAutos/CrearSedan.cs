@@ -1,4 +1,4 @@
-using practica2_copia2.Modelos;
+﻿using practica2_copia2.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,8 +86,8 @@ namespace practica2_copia2.Autos
 
                 CFactura.Precio = sedanSeleccionado.Precio;
 
-                CCrearFactura Factura = new CCrearFactura();
-                Factura.CCrearFactura1(opcionSedan, sedanSeleccionado.ToString());
+                CrearFactura Factura = new CrearFactura();
+                Factura.CrearFactura1(opcionSedan, sedanSeleccionado.ToString());
             }
             else
             {
