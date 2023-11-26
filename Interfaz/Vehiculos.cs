@@ -1,0 +1,5 @@
+interface Vehiculos
+{
+    void CrearAuto();
+
+}
